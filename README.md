@@ -1,2 +1,2 @@
-# krusty
-Kafka Toolkit
+# krust
+Kafka Command Line Client
