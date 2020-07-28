@@ -1,7 +1,9 @@
 [package]
-name = "krusty"
+name = "krust"
 version = "0.1.0"
 authors = ["John Tinetti <john@tinetti.net>"]
 edition = "2018"
 
 [dependencies]
+clap = "~2.33.1"
+rdkafka = { version = "~0.24", features = ["cmake-build"] }
