@@ -4,6 +4,14 @@ version = "0.1.0"
 authors = ["John Tinetti <john@tinetti.net>"]
 edition = "2018"
 
+[lib]
+name = "krust_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "krust_bin"
+path = "src/bin.rs"
+
 [dependencies]
 clap = "~2.33.1"
 rdkafka = { version = "~0.24", features = ["cmake-build"] }
